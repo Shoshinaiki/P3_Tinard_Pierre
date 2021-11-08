@@ -1,0 +1,206 @@
+html {
+    font-size: 100%;
+}
+
+body { 
+    margin: 0px;
+}   
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px;
+    background-color: #edeaea;
+    padding: 1rem 0rem 1rem 0rem;
+    color: black;
+}
+
+.fa-map-marker-alt {
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem; 
+}
+
+#belleville {
+    border: 1px transparent;
+    outline: none;
+    background-color: #edeaea;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 9rem;
+}
+
+.explorer {
+    background-color: #F2F2F2;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.h2_explorer {
+    margin-top: 0px;
+}
+
+.button_explorer {
+   margin-left: 4rem;
+   height: 2.5rem;
+   width: 14rem;
+   border-radius: 20px;
+   border: hidden;
+   background: linear-gradient(#FF79DA, #9356DC);
+   box-shadow: 0rem 0rem 1rem grey;
+}
+
+.p_button_explorer {
+    color: white;
+}
+
+.fonctionnement {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2_fonctionnement, .h2_restaurants {
+    margin: 2rem 0rem 0rem 2rem;
+}
+
+.button_fonctionnement {
+    display: flex;
+    border-radius: 25px;
+    border: hidden;
+    margin: 1rem 2rem 0.5rem 2rem;
+    padding: 1rem;
+}
+
+.fa-mobile-alt {
+    margin-left: 1rem;
+    margin-top: 0.9rem;
+    margin-right: 1rem;
+    height: 2rem;
+    color: grey;
+}
+.fa-ellipsis-v {
+    margin-left: 1rem;
+    margin-top: 0.9rem;
+    margin-right: 2px;
+    height: 2rem;
+    color: grey;
+}
+
+.fa-bars {
+    margin-top: 0.9rem;
+    margin-right: 1rem;
+    height: 2rem;
+    color: grey;
+}
+
+.button_degustez {
+    display: flex;
+    border-radius: 25px;
+    border: hidden;
+    margin: 1rem 2rem 2rem 2rem;
+    padding: 1rem;
+    background-color: #F2F2F2;
+}
+
+.fa-store {
+    margin-left: 1rem;
+    margin-top: 0.9rem;
+    margin-right: 1rem;
+    height: 2rem;
+    color: grey;
+}
+
+.p_button_fonctionnement {
+    font-weight: 700;
+}
+
+.restaurants {
+    background-color: #F2F2F2;
+}
+
+.h2_restaurants {
+    padding-top: 2rem;
+}
+
+.h3_restaurants {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.p_restaurants {
+    margin-top: 2px;
+    padding-left: 10px;
+}
+
+.fa-heart {
+    display: flex;
+    align-items: flex-end;
+}
+
+.img_restaurants {
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.img_restaurants_delice {
+    margin: 1rem 1rem 2rem 1rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.la_palette_du_gout, .la_note_enchantee, .a_la_francaise, .le_delice_des_sens {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 8rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #353333;
+}
+
+.h2_footer {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.fa-utensils, .fa-hands-helping {
+    color: white;
+}
+
+.h2_footer, .h3_footer, .h3_footer_contact {
+    margin: 0rem 0rem 0rem 1rem;
+}
+
+.h2_footer, .h3_footer {
+    color: white;
+}
+
+.h3_footer_contact {
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1250px) {
+    
+}
