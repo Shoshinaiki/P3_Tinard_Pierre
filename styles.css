@@ -132,6 +132,7 @@ h1 {
 
 .h3_restaurants {
     margin-top: 10px;
+    margin-bottom: 0px;
     padding-left: 10px;
 }
 
@@ -141,17 +142,32 @@ h1 {
     margin-bottom: 0px;
 }
 
-.fa-heart {
-    display: flex;
-    align-items: flex-end;
-}
-
 .img_restaurants {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     margin: 1rem 1rem 1rem 1rem;
     border-radius: 20px;
     background-color: white;
 }
 
+.new {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #99E2D0;
+    border-radius: 2px;
+    height: 1.5rem;
+    width: 5rem;
+}
+
+.p_new {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    padding-left: 1rem;
+    color: green;
+    font-weight: bold;
+}
 .img_restaurants_delice {
     margin: 1rem 1rem 2rem 1rem;
     border-radius: 20px;
@@ -164,6 +180,12 @@ h1 {
     height: 8rem;
     width: 100%;
     object-fit: cover;
+}
+
+.fa-heart {
+    display: flex;
+    flex-direction: row;
+    padding-left: 18rem;
 }
 
 footer {
