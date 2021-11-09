@@ -73,10 +73,14 @@ h1 {
 
 .button_fonctionnement {
     display: flex;
-    border-radius: 25px;
+    border-radius: 20px;
     border: hidden;
-    margin: 1rem 2rem 0.5rem 2rem;
-    padding: 1rem;
+    box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
+    0 2px 8px -5px rgba(0, 0, 0, 0.7);
+    margin: 1rem 1rem 0.5rem 2rem;
+    padding: 0.5rem;
+    height: 3.5rem;
+    width: 19.5rem;
 }
 
 .fa-mobile-alt {
@@ -101,15 +105,6 @@ h1 {
     color: grey;
 }
 
-.button_degustez {
-    display: flex;
-    border-radius: 25px;
-    border: hidden;
-    margin: 1rem 2rem 2rem 2rem;
-    padding: 1rem;
-    background-color: #F2F2F2;
-}
-
 .fa-store {
     margin-left: 1rem;
     margin-top: 0.9rem;
@@ -118,8 +113,25 @@ h1 {
     color: grey;
 }
 
+.one, .two, .three {
+    position: absolute;
+    font-size: 0.8rem;
+    height: 1.3rem; 
+	width: 1.3rem;
+    margin-left: 1.4rem;  
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #9356DC;
+    color: white;
+	border-radius: 50%; 
+}
+
 .p_button_fonctionnement {
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .restaurants {
@@ -168,6 +180,23 @@ h1 {
     color: green;
     font-weight: bold;
 }
+
+.info {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-bottom: 1rem;
+}
+
+.info > i {
+    padding-top: 1.5rem;
+}
+
+.info_text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .img_restaurants_delice {
     margin: 1rem 1rem 2rem 1rem;
     border-radius: 20px;
@@ -182,11 +211,6 @@ h1 {
     object-fit: cover;
 }
 
-.fa-heart {
-    display: flex;
-    flex-direction: row;
-    padding-left: 18rem;
-}
 
 footer {
     background-color: #353333;
