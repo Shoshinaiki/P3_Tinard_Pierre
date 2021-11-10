@@ -61,11 +61,18 @@ h1 {
    border-radius: 20px;
    border: hidden;
    background: linear-gradient(#FF79DA, #9356DC);
-   box-shadow: 0rem 0rem 1rem grey;
+   box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
+    0 2px 8px -5px rgba(0, 0, 0, 0.7);
+}
+
+.button_explorer:hover {
+    background: linear-gradient(#ff99e2, #a170dd);
+    box-shadow: 0 0.3px 2.5px -3px rgba(0, 0, 0, 0.35),
+    0 2px 17px -3px rgba(0, 0, 0, 0.7);
 }
 
 .p_button_explorer {
-    color: white;
+    color: white;   
 }
 
 .fonctionnement {
@@ -81,12 +88,23 @@ h1 {
     display: flex;
     border-radius: 20px;
     border: hidden;
+    background-color: #F2F2F2;
     box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
     0 2px 8px -5px rgba(0, 0, 0, 0.7);
     margin: 1rem 1rem 0.5rem 2rem;
     padding: 0.5rem;
     height: 3.5rem;
-    width: 19.5rem;
+    width: 85%;
+}
+
+.button_fonctionnement:hover {
+    background-color: #f5f1f1;
+    box-shadow: 0 0.3px 2.5px -3px rgba(0, 0, 0, 0.35),
+    0 2px 17px -3px rgba(0, 0, 0, 0.7);
+}
+
+.p_button_fonctionnement {
+    font-weight: 700;
 }
 
 .fa-mobile-alt {
@@ -133,11 +151,6 @@ h1 {
 	background-color: #9356DC;
     color: white;
 	border-radius: 50%; 
-}
-
-.p_button_fonctionnement {
-    font-weight: 700;
-    margin-bottom: 1rem;
 }
 
 .restaurants {
