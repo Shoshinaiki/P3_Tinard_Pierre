@@ -10,7 +10,6 @@ h1 {
     font-family: 'Shrikhand', cursive;
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
     margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
@@ -40,16 +39,23 @@ h1 {
 }
 
 .explorer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #F2F2F2;
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.explorer > p {
+    text-align: center;
 }
 
 .h2_explorer {
+    text-align: center;
     margin-top: 0px;
 }
 
 .button_explorer {
-   margin-left: 4rem;
    height: 2.5rem;
    width: 14rem;
    border-radius: 20px;
@@ -119,7 +125,7 @@ h1 {
     height: 1.3rem; 
 	width: 1.3rem;
     margin-left: 1.4rem;  
-    margin-top: 2rem;
+    margin-top: 2.2rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -136,6 +142,7 @@ h1 {
 
 .restaurants {
     background-color: #F2F2F2;
+    padding-bottom: 3rem;
 }
 
 .h2_restaurants {
@@ -191,12 +198,25 @@ h1 {
     padding-top: 1.5rem;
 }
 
+.info > .animation_heart > i {
+    padding-top: 1.5rem;
+}
+
 .info_text {
     display: flex;
     flex-direction: column;
     
 }
 
+.animation_heart > fa-heart {
+    transition: color 0.3s ease-in-out;
+}
+.fa-heart {
+    color: black;
+}
+.fa-heart:hover {
+    background: linear-gradient(#9356DC, #FF79DA );
+}
 .img_restaurants_delice {
     margin: 1rem 1rem 2rem 1rem;
     border-radius: 20px;
@@ -214,14 +234,18 @@ h1 {
 
 footer {
     background-color: #353333;
+    display: flex;
+    flex-direction: column;
 }
 
 .h2_footer {
+    font-family: 'Shrikhand', cursive;
     padding: 1rem 0rem 1rem 0rem;
 }
 
 .fa-utensils, .fa-hands-helping {
     color: white;
+    padding-left: 1rem;
 }
 
 .h2_footer, .h3_footer, .h3_footer_contact {

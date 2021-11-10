@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-        </style>
+    </style>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/6a6a40704f.js" crossorigin="anonymous"></script>
     <title>home Ohmyfood</title> 
 </head>
 <body>
-    <h1>Ohmyfood</h1>
+    <h1>ohmyfood</h1>
     <div class="search"> 
         <i class="fas fa-map-marker-alt"></i>
         <input type="search" placeholder="Paris, Belleville" id="belleville"/>
@@ -44,29 +44,43 @@
         <div class="img_restaurants">
             <div class="new"><p class="p_new">Nouveau</p></div>
             <img class="la_note_enchantee" src="img/la_note_enchantee.jpg" alt="restaurant_Charonne">
-            <h3 class="h3_restaurants">La note enchantée</h3> 
-            <p class="p_restaurants">Charonne</p>
-            <i class="far fa-heart"></i>
+            <div class="info">
+                <div class="info_text" >
+                    <h3 class="h3_restaurants">La note enchantée</h3> 
+                    <p class="p_restaurants">Charonne</p>
+                </div>
+                <div class="animation_heart"><i class="far fa-heart"></i></div>
+            </div>
         </div>
         <div class="img_restaurants">
             <img class="a_la_francaise" src="img/a_la_francaise.jpg" alt="restaurant_Cité_Rouge">
-            <h3 class="h3_restaurants">A la française</h3> 
-            <p class="p_restaurants">Cité Rouge</p>
-            <i class="far fa-heart"></i>
+            <div class="info" >
+                <div class="info_text">
+                    <h3 class="h3_restaurants">A la française</h3> 
+                    <p class="p_restaurants">Cité Rouge</p>
+                </div>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
-        <div class="img_restaurants_delice">
+        <div class="img_restaurants">
             <img class="le_delice_des_sens" src="img/le_delice_des_sens.jpg" alt="restaurant_Folie_Méricourt">
-            <h3 class="h3_restaurants">Le délice des sens</h3> 
-            <p class="p_restaurants">Folie-Méricourt</p>
-            <i class="far fa-heart"></i>
+            <div class="info" >
+                <div class="info_text" >
+                    <h3 class="h3_restaurants">Le délice des sens</h3> 
+                    <p class="p_restaurants">Folie-Méricourt</p>
+                </div>
+                <i class="far fa-heart"></i>
+            </div> 
         </div>
     </section>
     <footer>
-        <div><i class="fas fa-utensils"></i><a href="#"><h2 class="h2_footer">Ohmyfood</h2></a></div>
-        <div><i class="fas fa-hands-helping"></i><a href="#"><h3 class="h3_footer">Proposer un restaurant</h3></a></div>
-        <a href="#"><h3 class="h3_footer">Devenir partenaire</h3></a>
+        <a href="#"><h2 class="h2_footer">Ohmyfood</h2></a>
+        <i class="fas fa-utensils"></i>
+        <div><a href="#"><h3 class="h3_footer">Proposer un restaurant</h3></a></div>
+        <i class="fas fa-hands-helping"></i>
+        <div><a href="#"><h3 class="h3_footer">Devenir partenaire</h3></a></div>
         <a href="#"><h3 class="h3_footer">Mentions légales</h3></a>
-        <a href="#"><h3 class="h3_footer_contact">Contact</h3></a>
+        <a href="#"><h3 class="h3_footer_contact">Contact</h3></a> 
     </footer>
 </body> 
 </html>

@@ -1,0 +1,140 @@
+html {
+    font-size: 100%;
+}
+
+body { 
+    margin: 0px;
+}   
+
+.la_palette_du_gout {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main_menu {
+    background-color: #F2F2F2;
+}
+.top_menu {
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+h1, .h2_menu {
+    font-family: 'Shrikhand', cursive;
+}
+
+.h2_menu, .h2_entrees, .h2_plats, .h2_desserts {
+    margin-left: 2rem;
+}
+
+.arrow-left {
+    display: flex;
+    justify-content: left;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-bottom: 1rem;
+}
+
+.menu > .fa-heart {
+    padding-top: 1.4rem;
+}
+
+.fa-heart {
+    font-weight: 200;
+    padding-right: 4rem;
+    font-size: 1.5rem;
+}
+
+/* .info_text {
+    display: flex;
+    flex-direction: column;
+} */
+
+.entrees { 
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.button_entrees, .button_plats, .button_desserts {
+    border-radius: 20px;
+    border: hidden;
+    background-color: white;
+    box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
+    0 2px 8px -5px rgba(0, 0, 0, 0.7);
+    margin: 1rem 1rem 0.5rem 2rem;
+    padding: 0.5rem;
+    height: 3.5rem;
+    width: 19.5rem;
+}
+
+.h3_entrees, .h3_plats, .h3_desserts, .p_entrees, .p_plats, .p_desserts {
+    margin-top: 0rem;
+    padding-left: 0rem;
+}
+
+.button_menu {
+    margin: 2rem 4rem 2rem 4rem;
+    height: 2.5rem;
+    width: 14rem;
+    border-radius: 20px;
+    border: hidden;
+    background: linear-gradient(#FF79DA, #9356DC);
+    box-shadow: 0rem 0rem 1rem grey;
+ }
+
+.p_button_menu {
+    color: white;
+}
+
+footer {
+    background-color: #353333;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2_footer {
+    font-family: 'Shrikhand', cursive;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.fa-utensils, .fa-hands-helping {
+    color: white;
+    padding-left: 1rem;
+}
+
+.h2_footer, .h3_footer, .h3_footer_contact {
+    margin: 0rem 0rem 0rem 1rem;
+}
+
+.h2_footer, .h3_footer {
+    color: white;
+}
+
+.h3_footer_contact {
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1250px) {
+    
+}
