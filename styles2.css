@@ -103,26 +103,56 @@ footer {
 
 .h2_footer {
     font-family: 'Shrikhand', cursive;
+    font-size: 1.0rem;
+    font-weight: 100;
+    color: white;
     padding: 1rem 0rem 1rem 0rem;
 }
 
-.fa-utensils, .fa-hands-helping {
+.h3_footer {
+    padding-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.fa-utensils_h3_footer, .fa-hands-helping_h3_footer { 
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+} 
+
+.fa-utensils {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+
+.fa-hands-helping {
+    font-size: 0.6rem;
+    margin-left: 1rem;
+    padding-top: 5px;
+}
+
+.fa-utensils, .fa-hands-helping, .h3_footer, .h3_mentions_footer, .h3_footer_contact, .h3_mentions_footer {
+    font-family: 'Roboto', sans-serif;
     color: white;
-    padding-left: 1rem;
 }
 
 .h2_footer, .h3_footer, .h3_footer_contact {
     margin: 0rem 0rem 0rem 1rem;
 }
 
-.h2_footer, .h3_footer {
-    color: white;
+.h3_footer, .h3_mentions_footer, .h3_footer_contact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+
+.h3_mentions_footer {
+    margin-top: 0rem;
 }
 
 .h3_footer_contact {
-    color: white;
-    margin-bottom: 0px;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 a {
@@ -136,5 +166,4 @@ a {
 }
 
 @media (min-width: 1250px) {
-    
 }
