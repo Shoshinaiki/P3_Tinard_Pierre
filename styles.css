@@ -3,6 +3,8 @@ html {
 }
 
 body { 
+    display: flex;
+    flex-direction: column;
     margin: 0px;
 }   
 
@@ -99,7 +101,7 @@ h1 {
     margin: 1rem 1rem 0.5rem 2rem;
     padding: 0.5rem;
     height: 3.5rem;
-    width: 85%;
+    flex-grow: 1;
 }
 
 .button_fonctionnement:hover {
@@ -111,6 +113,10 @@ h1 {
 .p_button_fonctionnement {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+
+.div_fonctionnement_choisissez, .div_fonctionnement_composez, .div_fonctionnement_degustez {
+    display: flex;
 }
 
 .fa-mobile-alt {
@@ -183,7 +189,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-.img_restaurants {
+.div_la_palette, .div_la_note, .div_a_la_francaise, .div_le_delice {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -332,7 +338,7 @@ a {
     0 2px 8px -5px rgba(0, 0, 0, 0.7);
     }
     .fonctionnement {
-        margin-left: 3rem;
+        margin: 0rem 3rem 0rem 3rem;
     }
     footer {
         margin: 2rem 4rem 2rem 4rem;
@@ -340,18 +346,82 @@ a {
     }
 }
 @media (min-width: 1250px) {
+    body { 
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }   
+    h1 {
+        margin-bottom: 2rem;
+    }
+
     .search {
-        width: 30rem;
+        width: 50%;
+        justify-content: center;
+        margin: 0rem 0rem 2rem 20rem;
     }
     .explorer {
+        justify-content: center;
         width: 26rem;
+    }
+    .grid_top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .explorer, .fonctionnement {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .h2_fonctionnement {
+        margin-top: 1rem;
+    }
+    .div_fonctionnement_choisissez {
+        margin: 2rem 0rem 0rem 0rem;
+    }
+    .div_fonctionnement_composez {
+        margin: 2rem 0rem 0rem 0rem;
+    }
+    .div_fonctionnement_degustez {
+        margin: 2rem 0rem 2rem 0rem;
     }
     .button_fonctionnement {
         width: 30rem;
-        order: 1;
     }
-    .img_restaurants {
-        width: 45%;
+    .grid_img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
-    
+    .h2_restaurants {
+        padding-top: 0rem;
+        margin: 2rem 0rem 1rem 3rem;
+        height: 3rem;
+    }
+
+    .div_la_palette, .div_la_note, .div_a_la_francaise, .div_le_delice {
+        width: 80%;
+        margin: 2rem 3rem 2rem 3rem;
+    }
+    .la_palette_du_gout, .la_note_enchantee, .a_la_francaise, .le_delice_des_sens {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 10rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    footer {
+        margin: 2rem 4rem 2rem 4rem;
+        border-radius: 20px;
+    }
+    .h2_footer {
+        padding-top: 1rem;
+    }
+    .h2_footer, .fa-utensils, .fa-hands-helping, .h3_mentions_footer, .h3_footer_contact {
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+    .h3_footer {
+        padding-top: 1rem;
+    }
 }
