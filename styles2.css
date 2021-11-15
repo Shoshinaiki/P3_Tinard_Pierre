@@ -3,39 +3,65 @@ html {
 }
 
 body { 
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
 }   
+
+.button_explorer {
+        height: 2.5rem;
+        width: 10rem;
+        border-radius: 20px;
+        border: hidden;
+        background: linear-gradient(#FF79DA, #9356DC);
+        box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
+         0 2px 8px -5px rgba(0, 0, 0, 0.7);
+         margin: 2rem 1rem 1rem 1rem;
+}
+
+.p._button_explorer {
+    font-family: 'Roboto', sans-serif;
+    color: white;   
+}
+
+.main_menu {
+    background-color: #F2F2F2;
+}
 
 .la_palette_du_gout {
     width: 100%;
     object-fit: cover;
 }
 
-.main_menu {
-    background-color: #F2F2F2;
-}
-.top_menu {
-    display: flex;
-}
-
 h1 {
     display: flex;
     justify-content: center;
-    margin: 0.5rem 0rem 0.5rem 0rem;
+    margin: 2rem 0rem 2rem 2rem;
+    font-family: 'Shrikhand', cursive;
 }
 
-h1, .h2_menu {
+.fa-arrow-left {
+    margin: 2rem 0rem 0rem 2rem;
+    display: flex;
+    justify-items: left;
+    align-content: center;
+}
+
+.h2_menu {
     font-family: 'Shrikhand', cursive;
+} 
+
+.h2_entrees, .h2_plats, .h2_desserts {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
 }
 
 .h2_menu, .h2_entrees, .h2_plats, .h2_desserts {
     margin-left: 2rem;
 }
 
-.arrow-left {
-    display: flex;
-    justify-content: left;
-}
+
 .menu {
     display: grid;
     grid-template-columns: 90% 10%;
@@ -48,7 +74,6 @@ h1, .h2_menu {
 
 .fa-heart {
     font-weight: 200;
-    padding-right: 4rem;
     font-size: 1.5rem;
 }
 
@@ -58,8 +83,6 @@ h1, .h2_menu {
 } */
 
 .entrees { 
-    display: flex;
-    flex-direction: column;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
@@ -74,11 +97,18 @@ h1, .h2_menu {
     padding: 0.5rem;
     height: 3.5rem;
     width: 19.5rem;
+} 
+
+.h3_entrees, .h3_plats, .h3_desserts {
+    font-size: 1.05rem;
+}
+
+.p_entrees, .p_plats, .p_desserts {
+    font-size: 0.9rem;
 }
 
 .h3_entrees, .h3_plats, .h3_desserts, .p_entrees, .p_plats, .p_desserts {
-    margin-top: 0rem;
-    padding-left: 0rem;
+    margin: 0.5rem 3rem 0rem 0rem;
 }
 
 .button_menu {
@@ -93,6 +123,29 @@ h1, .h2_menu {
 
 .p_button_menu {
     color: white;
+}
+.div_entrees, .div_plats, .div_desserts {
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.div_entrees > p, .div_plats > p, .div_desserts > p {
+    padding-top: 2rem;
+    margin-right: 2rem;
+    color: red;
+}
+
+.button_entrees, .button_plats, .button_desserts {
+    display: flex;
+    flex-direction: column;
+}
+
+.h3_entrees, .h3_plats, .h3_desserts {
+    margin-left: 1rem;
+}
+
+.p_piment, .p_copeaux, .p_assaisonne, .p_accompagne, .p_a_la_truffe, .p_aux_agrumes, .p_revisite, .p_vanille, .p_au_piment {
+    margin: 0.2rem 2rem 0.5rem 1rem;
 }
 
 footer {
