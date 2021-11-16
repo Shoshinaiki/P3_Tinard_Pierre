@@ -78,6 +78,7 @@ h1 {
 .p_button_explorer {
     font-family: 'Roboto', sans-serif;
     color: white;   
+    margin: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 .fonctionnement {
@@ -178,14 +179,14 @@ h1 {
 .h3_restaurants {
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
-    margin-bottom: 0px;
-    padding-left: 10px;
+    margin-bottom: 0.2rem;
+    padding-left: 1rem;
 }
 
 .p_restaurants {
     font-family: 'Roboto', sans-serif;
     margin-top: 2px;
-    padding-left: 10px;
+    padding-left: 1rem;
     margin-bottom: 0px;
 }
 
@@ -258,11 +259,14 @@ h1 {
 .la_palette_du_gout, .la_note_enchantee, .a_la_francaise, .le_delice_des_sens {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 8rem;
+    height: 10rem;
     width: 100%;
     object-fit: cover;
 }
 
+.fa-heart {
+    font-size: 1.5rem;
+}
 
 footer {
     background-color: #353333;
@@ -349,7 +353,7 @@ a {
     body { 
         display: flex;
         flex-direction: column;
-        margin: 2rem;
+        margin: 2rem 5rem;
     }   
     h1 {
         margin-bottom: 2rem;
@@ -362,7 +366,8 @@ a {
     }
     .explorer {
         justify-content: center;
-        width: 26rem;
+        width: 25rem;
+        padding: 0rem;
     }
     .grid_top {
         display: grid;
@@ -376,18 +381,6 @@ a {
     .h2_fonctionnement {
         margin-top: 1rem;
     }
-    .div_fonctionnement_choisissez {
-        margin: 2rem 0rem 0rem 0rem;
-    }
-    .div_fonctionnement_composez {
-        margin: 2rem 0rem 0rem 0rem;
-    }
-    .div_fonctionnement_degustez {
-        margin: 2rem 0rem 2rem 0rem;
-    }
-    .button_fonctionnement {
-        width: 30rem;
-    }
     .grid_img {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -395,7 +388,7 @@ a {
     }
     .h2_restaurants {
         padding-top: 0rem;
-        margin: 2rem 0rem 1rem 3rem;
+        margin: 1rem 0rem 1rem 3rem;
         height: 3rem;
     }
 
