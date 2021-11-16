@@ -8,43 +8,38 @@ body {
     margin: 0rem;
 }   
 
-.button_explorer {
-        height: 2.5rem;
-        width: 10rem;
-        border-radius: 20px;
-        border: hidden;
-        background: linear-gradient(#FF79DA, #9356DC);
-        box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
-         0 2px 8px -5px rgba(0, 0, 0, 0.7);
-         margin: 2rem 1rem 1rem 1rem;
+.h1_menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
 }
 
-.p._button_explorer {
-    font-family: 'Roboto', sans-serif;
-    color: white;   
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem 0rem 2rem;
+    font-family: 'Shrikhand', cursive;
+}
+
+.fa-arrow-left {
+    margin: 1rem 2rem 0rem 2rem;
+    display: flex;
+    justify-items: left;
+    align-content: center;
+}
+
+.la_palette_du_gout, .la_note_enchantee, .a_la_francaise, .le_delice_des_sens {
+    width: 100%;
+    object-fit: cover; 
 }
 
 .main_menu {
     background-color: #F2F2F2;
 }
 
-.la_palette_du_gout {
-    width: 100%;
-    object-fit: cover;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0rem 2rem 2rem;
-    font-family: 'Shrikhand', cursive;
-}
-
-.fa-arrow-left {
-    margin: 2rem 0rem 0rem 2rem;
-    display: flex;
-    justify-items: left;
-    align-content: center;
+.entrees {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 .h2_menu {
@@ -55,12 +50,13 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 100;
+    border-bottom: 2px solid #99E2D0;
+    width: 3rem; 
 }
 
 .h2_menu, .h2_entrees, .h2_plats, .h2_desserts {
-    margin-left: 2rem;
+    margin-left: 2.2rem;
 }
-
 
 .menu {
     display: grid;
@@ -70,10 +66,11 @@ h1 {
 
 .menu > .fa-heart {
     padding-top: 1.4rem;
+    margin-right: 2rem;
 }
 
 .fa-heart {
-    font-weight: 200;
+    font-weight: 100;
     font-size: 1.5rem;
 }
 
@@ -88,19 +85,23 @@ h1 {
 }
 
 .button_entrees, .button_plats, .button_desserts {
-    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
     border: hidden;
     background-color: white;
     box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
     0 2px 8px -5px rgba(0, 0, 0, 0.7);
-    margin: 1rem 1rem 0.5rem 2rem;
-    padding: 0.5rem;
+    margin: 0rem 1rem 0.5rem 2rem;
     height: 3.5rem;
     width: 19.5rem;
 } 
 
 .h3_entrees, .h3_plats, .h3_desserts {
-    font-size: 1.05rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    padding-top: 0.2rem;
 }
 
 .p_entrees, .p_plats, .p_desserts {
@@ -108,9 +109,9 @@ h1 {
 }
 
 .h3_entrees, .h3_plats, .h3_desserts, .p_entrees, .p_plats, .p_desserts {
-    margin: 0.5rem 3rem 0rem 0rem;
+    margin: 0.5rem 1.5rem 0rem 1rem;
 }
-
+ 
 .button_menu {
     margin: 2rem 4rem 2rem 4rem;
     height: 2.5rem;
@@ -124,6 +125,7 @@ h1 {
 .p_button_menu {
     color: white;
 }
+
 .div_entrees, .div_plats, .div_desserts {
     display: grid;
     grid-template-columns: 90% 10%;
@@ -135,17 +137,20 @@ h1 {
     color: red;
 }
 
-.button_entrees, .button_plats, .button_desserts {
-    display: flex;
-    flex-direction: column;
+.p_entrees, .p_plats, .p_desserts {
+    margin: 0.2rem 1rem 0.5rem 1rem;
+    line-height: 0.5rem;
+    letter-spacing: -1px;
 }
 
-.h3_entrees, .h3_plats, .h3_desserts {
-    margin-left: 1rem;
+.p_tarif {
+    padding-top: 0.8rem;
+    padding-right: 10px;
+    font-weight: 500;
 }
 
-.p_piment, .p_copeaux, .p_assaisonne, .p_accompagne, .p_a_la_truffe, .p_aux_agrumes, .p_revisite, .p_vanille, .p_au_piment {
-    margin: 0.2rem 2rem 0.5rem 1rem;
+p {
+    font-weight: 500;
 }
 
 footer {
@@ -210,6 +215,33 @@ footer {
 
 a {
     text-decoration: none;
+}
+
+.button_explorer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 30px;
+    border: hidden;
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);
+    box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
+    0 2px 8px -5px rgba(0, 0, 0, 0.7);
+    margin: 2rem 1rem 3rem 7rem;
+}
+
+.button_explorer:hover {
+    background: linear-gradient(#ff99e2, #9356DC);
+    box-shadow: 0 0.3px 2.5px -3px rgba(0, 0, 0, 0.35),
+    0 2px 17px -3px rgba(0, 0, 0, 0.7);
+}
+
+.p_button_explorer {
+    margin: 0rem;
 }
 
 /* Responsive */
