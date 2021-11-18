@@ -362,16 +362,18 @@ a {
     .search {
         width: 50%;
         justify-content: center;
-        margin: 0rem 0rem 2rem 20rem;
+        margin: 0rem 0rem 2rem 0rem;
+        align-self: center;
     }
     .explorer {
         justify-content: center;
         width: 25rem;
         padding: 0rem;
+        margin-bottom: 0.5rem;
     }
     .grid_top {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
     }
     .fonctionnement {
         display: grid;
