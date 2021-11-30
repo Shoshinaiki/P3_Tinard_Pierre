@@ -226,6 +226,8 @@ h1 {
     height: 3.5rem;
     width: 3rem;
     background-color: #99E2D0;
+    box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
+    0 2px 8px -5px rgba(0, 0, 0, 0.7);
 }
 
 .fa-check-circle {
