@@ -2,52 +2,6 @@ html {
     font-size: 100%;
 }
 
-.loadcontent
-{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    display:  flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFFFFF80;
-    animation: loadinger 0.1s;
-    animation-delay: 2.9s;
-    animation-fill-mode: both;
-}
-
-.loading
-{
-    border: 5px solid #9356DC;
-    border-top: 5px solid #99E2D0;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    animation: loading 1s ease-in-out;
-    animation-iteration-count: 3;
-}
-@keyframes loading
-{
-    0%
-    { 
-        transform: rotate(0deg); 
-    }
-    100%
-    { 
-        transform: rotate(360deg);
-    }
-}
-
-
-@keyframes loadinger
-{
-    100%
-    {
-       opacity: 0;
-       z-index: -1;
-    }
-}
-
 body { 
     display: flex;
     flex-direction: column;
@@ -143,7 +97,144 @@ h1 {
     0 2px 8px -5px rgba(0, 0, 0, 0.7);
     margin-bottom: 0.5rem;
     height: 3.5rem;
-} 
+}
+
+.button_entrees {
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .button_plats {
+        animation: fadein 4s;
+        -moz-animation: fadein 4s; /* Firefox */
+        -webkit-animation: fadein 4s; /* Safari et Chrome */
+        -o-animation: fadein 4s; /* Opera */
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .button_desserts {
+        animation: fadein 6s;
+        -moz-animation: fadein 6s; /* Firefox */
+        -webkit-animation: fadein 6s; /* Safari et Chrome */
+        -o-animation: fadein 6s; /* Opera */
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+.click {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: hidden;
+    height: 3.5rem;
+    width: 3rem;
+    background-color: #99E2D0;
+}
+
+.fa-check-circle {
+    background-color: white;
+    align-self: center;
+    border-radius: 10px;
+    margin: 1rem;
+    color: #99e2d0;
+}
 
 .h3_entrees, 
 .h3_plats, 
@@ -166,6 +257,7 @@ h1 {
 .p_plats, 
 .p_desserts {
     margin: 0.5rem 1.5rem 0rem 1rem;
+    font-family: 'Roboto', sans-serif;
 }
  
 .button_menu {
