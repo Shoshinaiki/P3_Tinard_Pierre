@@ -14,6 +14,7 @@ html {
     animation: loadinger 0.1s;
     animation-delay: 2.9s;
     animation-fill-mode: both;
+    z-index: 1;
 }
 
 .loading
@@ -97,6 +98,7 @@ h1 {
 
 .explorer > p {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .h2_explorer {
@@ -168,21 +170,21 @@ h1 {
 
 .fa-mobile-alt {
     margin-left: 1rem;
-    margin-top: 0.9rem;
+    margin-top: 1.2rem;
     margin-right: 1rem;
     height: 2rem;
     color: grey;
 }
 .fa-ellipsis-v {
     margin-left: 1rem;
-    margin-top: 0.9rem;
+    margin-top: 1.2rem;
     margin-right: 2px;
     height: 2rem;
     color: grey;
 }
 
 .fa-bars {
-    margin-top: 0.9rem;
+    margin-top: 1.2rem;
     margin-right: 1rem;
     height: 2rem;
     color: grey;
@@ -190,7 +192,7 @@ h1 {
 
 .fa-store {
     margin-left: 1rem;
-    margin-top: 0.9rem;
+    margin-top: 1.2rem;
     margin-right: 1rem;
     height: 2rem;
     color: grey;
@@ -202,7 +204,7 @@ h1 {
     height: 1.3rem; 
 	width: 1.3rem;
     margin-left: 1.4rem;  
-    margin-top: 2.2rem;
+    margin-top: 2.5rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -239,11 +241,27 @@ h1 {
 .div_la_palette, .div_la_note, .div_a_la_francaise, .div_le_delice {
     display: flex;
     flex-direction: column;
-    position: relative;
     margin: 1rem 1rem 1rem 1rem;
+    position: relative;
     border-radius: 20px;
     background-color: white;
 }
+
+.div_la_palette:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 20px;
+}
+
+.div_la_note:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 20px;
+}
+
+.div_a_la_francaise:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 20px;
+}
+
+.div_le_delice:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 20px;
+} 
 
 .new {
     position: absolute;
@@ -271,7 +289,9 @@ h1 {
 }
 
 .info > i {
+    justify-self: end;
     padding-top: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .info > .animation_heart > i {
@@ -399,7 +419,7 @@ a {
     body { 
         display: flex;
         flex-direction: column;
-        margin: 2rem 5rem;
+        margin: 2rem 5rem 2rem 5rem;
     }   
     h1 {
         margin-bottom: 2rem;

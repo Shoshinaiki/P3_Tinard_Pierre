@@ -138,6 +138,18 @@ h1 {
         }
     }
     
+.button_entrees:hover > .container > .click {
+    transform: translateX(-0%);
+    transition: transform 1500ms ease-in;
+    transition: transform 1000ms ease-out;
+    visibility: visible;
+}
+
+.button_entrees:hover > .container > .click > .fa-check-circle {
+    transform: rotate(360deg);
+    transition: transform 500ms ease-in-out;
+}
+
     .button_plats {
         animation: fadein 4s;
         -moz-animation: fadein 4s; /* Firefox */
@@ -220,14 +232,16 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: hidden;
     height: 3.5rem;
     width: 3rem;
     background-color: #99E2D0;
     box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
     0 2px 8px -5px rgba(0, 0, 0, 0.7);
+    transform: translateX(100%);
+    visibility: hidden;
 }
 
 .fa-check-circle {
