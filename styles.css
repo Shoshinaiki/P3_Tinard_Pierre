@@ -332,6 +332,34 @@ h1 {
 
 .fa-heart {
     font-size: 1.5rem;
+    animation: fa-heart 1000ms;
+}
+
+@keyframes fa-heart {
+    0% {
+        transform: scaleX(0);
+        background: linear-gradient (#9356DC, #ff99e2);   
+    }
+
+    17% {
+        transform: scaleX(.18);
+        background: linear-gradient (#9356DC, #ff99e2); 
+    }
+
+    24% {
+        transform: scaleX(.4);
+        background: linear-gradient (#9356DC, #ff99e2); 
+    }
+
+    46% {
+        transform: scaleX(.81);
+        background: linear-gradient (#9356DC, #ff99e2); 
+    }
+
+    100% {
+     transform: scaleX(1);
+     background: linear-gradient (#9356DC, #ff99e2); 
+    } 
 }
 
 footer {
