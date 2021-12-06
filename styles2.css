@@ -223,7 +223,7 @@ h1 {
     display: flex;
     align-items: flex-end;
     padding-top: 0.8rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     font-weight: 600;
 }
 
@@ -507,6 +507,43 @@ a {
     margin: 0rem;
 }
 
+.h3_entrees_foie, 
+.p_entrees_copeaux, 
+.p_entrees_truffe,
+.h3_plats_filet_boeuf,
+.p_plats_ribambelle,
+.h3_plats_parmentier,
+.p_plats_truffe,
+.h3_desserts_macaron,
+.p_desserts_vanille,
+.h3_desserts_mousse,
+.p_desserts_piment {
+    display: none;
+}
+
+.h3_entrees_foie, 
+.h3_entrees_2,
+.h3_plats_2,
+.h3_desserts_2,
+.h3_desserts_mousse {
+    margin: 0.5rem 1.5rem 0rem 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.p_entrees_copeaux, 
+.p_entrees_truffe,
+.p_entrees_2,
+.p_plats_2,
+.p_desserts_2 {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1.5rem;
+    letter-spacing: -1.5px;
+    line-height: normal;
+    margin: 0rem;
+    font-size: 0.9rem;
+}
+
 .button_explorer {
     display: flex;
     justify-content: center;
@@ -566,10 +603,28 @@ a {
     justify-content: space-around;  
     }
 
-.h3_entrees_2, .entrees_2 {
-    visibility: hidden;
-}
+.h3_entrees_foie, 
+.p_entrees_copeaux, 
+.p_entrees_truffe,
+.h3_plats_filet_boeuf,
+.p_plats_ribambelle,
+.h3_plats_parmentier,
+.p_plats_truffe,
+.h3_desserts_macaron,
+.p_desserts_vanille,
+.h3_desserts_mousse,
+.p_desserts_piment {
+    display: block;
+}   
 
+.h3_entrees_2,
+.p_entrees_2,
+.h3_plats_2,
+.p_plats_2,
+.h3_desserts_2,
+.p_desserts_2 {
+    display: none;
+    }
 }
   
 @media (min-width: 1250px) {
