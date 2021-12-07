@@ -64,6 +64,47 @@ h1 {
     width: 3rem; 
 }
 
+.heartcontainer{
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fa-heart{
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+}
+  
+.fas.fa-heart{
+    opacity: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+.far.fa-heart{
+    opacity: 1;
+    transition: 0.5s;
+}
+  
+.heartcontainer:hover > .fas.fa-heart{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.heartcontainer:hover > .far.fa-heart{
+    opacity: 0;
+    transition: 0.5s;
+}
+
 .menu {
     display: grid;
     grid-template-columns: 90% 10%;
@@ -507,43 +548,6 @@ a {
     margin: 0rem;
 }
 
-.h3_entrees_foie, 
-.p_entrees_copeaux, 
-.p_entrees_truffe,
-.h3_plats_filet_boeuf,
-.p_plats_ribambelle,
-.h3_plats_parmentier,
-.p_plats_truffe,
-.h3_desserts_macaron,
-.p_desserts_vanille,
-.h3_desserts_mousse,
-.p_desserts_piment {
-    display: none;
-}
-
-.h3_entrees_foie, 
-.h3_entrees_2,
-.h3_plats_2,
-.h3_desserts_2,
-.h3_desserts_mousse {
-    margin: 0.5rem 1.5rem 0rem 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-}
-
-.p_entrees_copeaux, 
-.p_entrees_truffe,
-.p_entrees_2,
-.p_plats_2,
-.p_desserts_2 {
-    font-family: 'Roboto', sans-serif;
-    padding-left: 1.5rem;
-    letter-spacing: -1.5px;
-    line-height: normal;
-    margin: 0rem;
-    font-size: 0.9rem;
-}
-
 .button_explorer {
     display: flex;
     justify-content: center;
@@ -603,28 +607,6 @@ a {
     justify-content: space-around;  
     }
 
-.h3_entrees_foie, 
-.p_entrees_copeaux, 
-.p_entrees_truffe,
-.h3_plats_filet_boeuf,
-.p_plats_ribambelle,
-.h3_plats_parmentier,
-.p_plats_truffe,
-.h3_desserts_macaron,
-.p_desserts_vanille,
-.h3_desserts_mousse,
-.p_desserts_piment {
-    display: block;
-}   
-
-.h3_entrees_2,
-.p_entrees_2,
-.h3_plats_2,
-.p_plats_2,
-.h3_desserts_2,
-.p_desserts_2 {
-    display: none;
-    }
 }
   
 @media (min-width: 1250px) {
