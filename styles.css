@@ -373,17 +373,17 @@ h1 {
 
 .far.fa-heart{
     opacity: 1;
-    transition: 0.5s;
+    transition: 2s;
 }
   
 .heartcontainer:hover > .fas.fa-heart{
     opacity: 1;
-    transition: 0.5s;
+    transition: 2s;
 }
 
 .heartcontainer:hover > .far.fa-heart{
     opacity: 0;
-    transition: 0.5s;
+    transition: 2s;
 }
 
 footer {
