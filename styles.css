@@ -29,6 +29,19 @@ html {
     animation: loading 1s ease-in-out;
     animation-iteration-count: 3;
 }
+
+@keyframes loadcontent 
+{
+    0%
+    {
+        opacity: -2;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
 @keyframes loading
 {
     0%
@@ -203,7 +216,9 @@ h1 {
     color: grey;
 }
 
-.one, .two, .three {
+.one, 
+.two, 
+.three {
     position: absolute;
     font-size: 0.8rem;
     height: 1.3rem; 
@@ -333,16 +348,16 @@ h1 {
 .heartcontainer{
     position: relative;
     width: 3.5rem;
-    height: 3.5rem;
+    height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     cursor: pointer;
 }
 
 .fa-heart{
     display: block;
     position: absolute;
+    justify-content: end;
     font-size: 2rem;
     padding-top: 1.5rem;
     padding-right: 1.5rem;
@@ -353,7 +368,7 @@ h1 {
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .far.fa-heart{
@@ -383,11 +398,21 @@ footer {
     font-weight: 100;
     color: white;
     padding: 1rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 0rem 1rem;
 }
 
 .h3_footer {
     padding-bottom: 0rem;
-    margin-left: 0rem;
+    margin: 0rem 0rem 0rem 1rem;
+}
+
+.h3_mentions_footer {
+    margin-top: 0rem;
+}
+
+.h3_footer_contact {
+    margin-bottom: 2rem;
+    margin: 0rem 0rem 1rem 1rem;
 }
 
 .fa-utensils_h3_footer, 
@@ -418,12 +443,6 @@ footer {
     color: white;
 }
 
-.h2_footer, 
-.h3_footer, 
-.h3_footer_contact {
-    margin: 0rem 0rem 0rem 1rem;
-}
-
 .h3_footer, 
 .h3_mentions_footer, 
 .h3_footer_contact {
@@ -431,14 +450,6 @@ footer {
     font-weight: 100;
     font-size: 0.9rem;
     margin-left: 1rem;
-}
-
-.h3_mentions_footer {
-    margin-top: 0rem;
-}
-
-.h3_footer_contact {
-    margin-bottom: 2rem;
 }
 
 a {

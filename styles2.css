@@ -8,7 +8,7 @@ body {
     margin: 0rem;
 }   
 
-.h1_menu {
+.arrow_h1 {
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
@@ -47,7 +47,7 @@ h1 {
 .entrees, 
 .plats, 
 .desserts {
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 0rem 1.5rem 0rem 1.5rem;
 }
 
 .h2_menu {
@@ -120,11 +120,6 @@ h1 {
     font-size: 1.5rem;
 }
 
-/* .info_text {
-    display: flex;
-    flex-direction: column;
-} */
-
 .button_entrees, 
 .button_plats, 
 .button_desserts {
@@ -143,9 +138,9 @@ h1 {
 
 .button_entrees {
     animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari et Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    -moz-animation: fadein 2s; 
+    -webkit-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
 }
 @keyframes fadein {
     from {
@@ -155,7 +150,7 @@ h1 {
         opacity:1;
     }
 }
-@-moz-keyframes fadein { /* sur Firefox */
+@-moz-keyframes fadein {
     from {
         opacity:0;
     }
@@ -163,7 +158,7 @@ h1 {
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* sur Safari et Chrome */
+@-webkit-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -171,7 +166,7 @@ h1 {
         opacity:1;
     }
 }
-@-o-keyframes fadein { /* sur Opera */
+@-o-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -182,9 +177,9 @@ h1 {
 
 .button_plats { 
     animation: fadein 4s;
-    -moz-animation: fadein 4s; /* Firefox */
-    -webkit-animation: fadein 4s; /* Safari et Chrome */
-    -o-animation: fadein 4s; /* Opera */
+    -moz-animation: fadein 4s; 
+    -webkit-animation: fadein 4s; 
+    -o-animation: fadein 4s; 
 }
 @keyframes fadein {
     from {
@@ -194,7 +189,7 @@ h1 {
         opacity:1;
     }
 }
-@-moz-keyframes fadein { /* sur Firefox */
+@-moz-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -202,7 +197,7 @@ h1 {
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* sur Safari et Chrome */
+@-webkit-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -210,7 +205,7 @@ h1 {
         opacity:1;
     }
 }
-@-o-keyframes fadein { /* sur Opera */
+@-o-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -333,7 +328,8 @@ h1 {
 .h3_entrees, 
 .h3_plats, 
 .h3_desserts {
-    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0.5rem 1.5rem 0rem 1rem;
     font-size: 1rem;
     padding-top: 0.2rem;
 }
@@ -341,16 +337,14 @@ h1 {
 .p_entrees, 
 .p_plats, 
 .p_desserts {
+    font-family: 'Roboto', sans-serif;
+    margin: 0.5rem 1.5rem 0rem 1rem;
     font-size: 0.9rem;
+    line-height: 0.5rem;
+    letter-spacing: -1px;
 }
 
-.h3_entrees, 
-.h3_plats, 
-.h3_desserts, 
-.p_entrees, 
-.p_plats, 
-.p_desserts {
-    margin: 0.5rem 1.5rem 0rem 1rem;
+.p_tarif {
     font-family: 'Roboto', sans-serif;
 }
  
@@ -376,91 +370,6 @@ h1 {
     color: red;
 }
 
-.p_entrees, 
-.p_plats, 
-.p_desserts {
-
-    line-height: 0.5rem;
-    letter-spacing: -1px;
-}
-
-p {
-    font-weight: 500;
-}
-
-footer {
-    background-color: #353333;
-    display: flex;
-    flex-direction: column;
-}
-
-.h2_footer {
-    font-family: 'Shrikhand', cursive;
-    font-size: 1rem;
-    font-weight: 100;
-    color: white;
-    padding: 1rem 0rem 1rem 0rem;
-}
-
-.h3_footer {
-    padding-bottom: 0rem;
-    margin-left: 0rem;
-}
-
-.fa-utensils_h3_footer, 
-.fa-hands-helping_h3_footer { 
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 1rem;
-} 
-
-.fa-utensils {
-    font-size: 0.9rem;
-    margin-left: 1rem;
-}
-
-.fa-hands-helping {
-    font-size: 0.6rem;
-    margin-left: 1rem;
-    padding-top: 5px;
-}
-
-.fa-utensils, 
-.fa-hands-helping, 
-.h3_footer, 
-.h3_mentions_footer, 
-.h3_footer_contact, 
-.h3_mentions_footer {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-
-.h2_footer, 
-.h3_footer, 
-.h3_footer_contact {
-    margin: 0rem 0rem 0rem 1rem;
-}
-
-.h3_footer, 
-.h3_mentions_footer, 
-.h3_footer_contact {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 0.9rem;
-    margin-left: 1rem;
-}
-
-.h3_mentions_footer {
-    margin-top: 0rem;
-}
-
-.h3_footer_contact {
-    margin-bottom: 2rem;
-}
-
-a {
-    text-decoration: none;
-}
 .div_button {
     display: flex;
     flex-direction: column;
@@ -490,18 +399,71 @@ a {
     0 2px 17px -3px rgba(0, 0, 0, 0.7);
 }
 
-.div_button {
+footer {
+    background-color: #353333;
     display: flex;
     flex-direction: column;
-    align-items: center;  
- }
+}
+
+.h2_footer {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+    padding: 1rem 0rem 1rem 1rem;
+}
+ 
+.fa-utensils_h3_footer, 
+.fa-hands-helping_h3_footer { 
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+} 
+
+.fa-utensils {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+
+.fa-hands-helping {
+    font-size: 0.6rem;
+    margin-left: 1rem;
+    padding-top: 5px;
+}
+
+.fa-utensils, 
+.fa-hands-helping, 
+.h3_footer,  
+.h3_footer_contact, 
+.h3_mentions_footer {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0rem 0rem 0rem 1rem;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.h3_mentions_footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    margin: 0rem 0rem 1rem 1rem;
+}
+
+.h3_footer_contact {
+    margin-bottom: 2rem;
+} 
+
+a {
+    text-decoration: none;
+}
  
 /* Responsive */
-@media (min-width: 320px) {
-.h1_menu {
+@media (max-width: 414px) {
+.arrow_h1 {
     display: flex;
     font-family: 'Shrikhand', cursive;
-}
+} 
 
 .fa-arrow-left {
     margin: 1rem 2rem 0rem 2rem;
@@ -535,17 +497,27 @@ a {
 .h3_entrees, 
 .h3_plats, 
 .h3_desserts {
+    display: inline-block;
     padding-left: 0.5rem;
     letter-spacing: -1.8px;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .p_entrees,
 .p_plats,
 .p_desserts {
+    display: inline-block;
     padding-left: 1.5rem;
     letter-spacing: -1.5px;
     line-height: normal;
     margin: 0rem;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .button_explorer {
@@ -571,10 +543,11 @@ a {
     box-shadow: 0 0.3px 2.5px -3px rgba(0, 0, 0, 0.35),
     0 2px 17px -3px rgba(0, 0, 0, 0.7);
     }
+
 } 
 
 @media (min-width: 768px) {
-.h1_menu {
+.arrow_h1 {
     display: flex;
     font-family: 'Shrikhand', cursive;
 }
@@ -600,6 +573,14 @@ a {
     margin: 0rem 1rem 0.5rem 1rem;
     height: 3.5rem;
 }
+.h3_entrees, 
+.h3_plats, 
+.h3_desserts,
+.p_entrees,
+.p_plats,
+.p_desserts {
+    font-size: 1rem;
+}
 
 .div_button {
     display: flex;
@@ -610,7 +591,7 @@ a {
 }
   
 @media (min-width: 1250px) {
-.h1_menu {
+.arrow_h1 {
     display: flex;
     justify-content: center;
     margin: 1rem 10rem 0rem 2rem;
