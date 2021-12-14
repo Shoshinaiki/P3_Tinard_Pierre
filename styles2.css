@@ -216,9 +216,9 @@ h1 {
 
 .button_desserts {
     animation: fadein 15s;
-    -moz-animation: fadein 15s; /* Firefox */
-    -webkit-animation: fadein 15s; /* Safari et Chrome */
-    -o-animation: fadein 15s; /* Opera */
+    -moz-animation: fadein 15s; 
+    -webkit-animation: fadein 15s; 
+    -o-animation: fadein 15s; 
 }
 @keyframes fadein {
     from {
@@ -228,7 +228,7 @@ h1 {
         opacity:1;
     }
 }
-@-moz-keyframes fadein { /* sur Firefox */
+@-moz-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -236,7 +236,7 @@ h1 {
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* sur Safari et Chrome */
+@-webkit-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -244,7 +244,7 @@ h1 {
         opacity:1;
     }
 }
-@-o-keyframes fadein { /* sur Opera */
+@-o-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -302,7 +302,9 @@ h1 {
     font-weight: 600;
 }
 
-.entree_hover, .plat_hover, .dessert_hover {
+.entree_hover, 
+.plat_hover, 
+.dessert_hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -460,7 +462,9 @@ a {
 }
  
 /* Responsive */
+
 @media (max-width: 414px) {
+
 .arrow_h1 {
     display: flex;
     font-family: 'Shrikhand', cursive;
@@ -548,6 +552,7 @@ a {
 } 
 
 @media (min-width: 768px) {
+
 .arrow_h1 {
     display: flex;
     font-family: 'Shrikhand', cursive;
@@ -592,6 +597,7 @@ a {
 }
   
 @media (min-width: 1250px) {
+    
 .arrow_h1 {
     display: flex;
     justify-content: center;

@@ -2,8 +2,7 @@ html {
     font-size: 100%;
 }
   
-.loadcontent
-{
+.loadcontent {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -17,8 +16,7 @@ html {
     z-index: 1;
 }
 
-.loading
-{
+.loading {
     border: 5px solid #FF79DA;
     border-top: 5px solid #9356DC;
     border-radius: 50%;
@@ -53,7 +51,6 @@ html {
         transform: rotate(360deg);
     }
 }
-
 
 @keyframes loadinger
 {
@@ -262,7 +259,6 @@ h1 {
 .div_la_note, 
 .div_a_la_francaise, 
 .div_le_delice {
-
     display: flex;
     flex-direction: column;
     margin: 1rem 1rem 1rem 1rem;
@@ -345,7 +341,7 @@ h1 {
     object-fit: cover;
 }
 
-.heartcontainer{
+.heartcontainer {
     position: relative;
     width: 3.5rem;
     height: auto;
@@ -354,7 +350,7 @@ h1 {
     cursor: pointer;
 }
 
-.fa-heart{
+.fa-heart {
     display: block;
     position: absolute;
     justify-content: end;
@@ -363,7 +359,7 @@ h1 {
     padding-right: 1.5rem;
 }
   
-.fas.fa-heart{
+.fas.fa-heart {
     opacity: 0;
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
     -webkit-background-clip: text;
@@ -371,17 +367,17 @@ h1 {
     transition: 1.5s;
 }
 
-.far.fa-heart{
+.far.fa-heart { 
     opacity: 1;
     transition: 2s;
 }
   
-.heartcontainer:hover > .fas.fa-heart{
+.heartcontainer:hover > .fas.fa-heart {
     opacity: 1;
     transition: 2s;
 }
 
-.heartcontainer:hover > .far.fa-heart{
+.heartcontainer:hover > .far.fa-heart {
     opacity: 0;
     transition: 2s;
 }
@@ -459,100 +455,117 @@ a {
 /* Responsive */
 
 @media (min-width: 768px) {
-    .search, 
-    .explorer, 
-    .restaurants {
-        margin: 1rem 4rem 1rem 4rem;
-        border-radius: 20px;
-        box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
+
+.search, 
+.explorer, 
+.restaurants {
+    margin: 1rem 4rem 1rem 4rem;
+    border-radius: 20px;
+    box-shadow: 0 0.3px 1.3px -5px rgba(0, 0, 0, 0.35),
     0 2px 8px -5px rgba(0, 0, 0, 0.7);
-    }
-    .fonctionnement {
-        margin: 0rem 3rem 0rem 3rem;
-    }
-    footer {
-        margin: 2rem 4rem 2rem 4rem;
-        border-radius: 20px;
+}
+
+.fonctionnement {
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+footer {
+    margin: 2rem 4rem 2rem 4rem;
+    border-radius: 20px;
     }
 }
+
 @media (min-width: 1250px) {
-    body { 
-        display: flex;
-        flex-direction: column;
-        margin: 2rem 5rem 2rem 5rem;
-    }   
-    h1 {
-        margin-bottom: 2rem;
-    }
 
-    .search {
-        width: 50%;
-        justify-content: center;
-        margin: 0rem 0rem 2rem 0rem;
-        align-self: center;
-    }
-    .explorer {
-        justify-content: center;
-        width: 25rem;
-        padding: 0rem;
-        margin-bottom: 0.5rem;
-    }
-    .grid_top {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-    }
-    .fonctionnement {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-    .h2_fonctionnement {
-        margin-top: 1rem;
-    }
-    .grid_img {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-    .h2_restaurants {
-        padding-top: 0rem;
-        margin: 1rem 0rem 1rem 3rem;
-        height: 3rem;
-    }
+body { 
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 5rem 2rem 5rem;
+}   
 
-    .div_la_palette, 
-    .div_la_note, 
-    .div_a_la_francaise, 
-    .div_le_delice {
-        width: 80%;
-        margin: 2rem 3rem 2rem 3rem;
-    }
-    .la_palette_du_gout, 
-    .la_note_enchantee, 
-    .a_la_francaise, 
-    .le_delice_des_sens {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        height: 10rem;
-        width: 100%;
-        object-fit: cover;
-    }
-    footer {
-        margin: 2rem 4rem 2rem 4rem;
-        border-radius: 20px;
-    }
-    .h2_footer {
-        padding-top: 1rem;
-    }
-    .h2_footer, 
-    .fa-utensils, 
-    .fa-hands-helping, 
-    .h3_mentions_footer, 
-    .h3_footer_contact {
-        padding-left: 2rem;
-        padding-top: 1rem;
-    }
-    .h3_footer {
-        padding-top: 1rem;
+h1 {
+    margin-bottom: 2rem;
+}
+
+.search {
+    width: 50%;
+    justify-content: center;
+    margin: 0rem 0rem 2rem 0rem;
+    align-self: center;
+}
+    
+.explorer {
+    justify-content: center;
+    width: 25rem;
+    padding: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid_top {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+    
+.fonctionnement {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+    
+.h2_fonctionnement {
+    margin-top: 1rem;
+}
+    
+.grid_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+    
+.h2_restaurants {
+    padding-top: 0rem;
+    margin: 1rem 0rem 1rem 3rem;
+    height: 3rem;
+}
+
+.div_la_palette, 
+.div_la_note, 
+.div_a_la_francaise, 
+.div_le_delice {
+    width: 80%;
+    margin: 2rem 3rem 2rem 3rem;
+}
+    
+.la_palette_du_gout, 
+.la_note_enchantee, 
+.a_la_francaise, 
+.le_delice_des_sens {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+}
+    
+footer {
+    margin: 2rem 4rem 2rem 4rem;
+    border-radius: 20px;
+}
+    
+.h2_footer {
+    padding-top: 1rem;
+}
+    
+.h2_footer, 
+.fa-utensils, 
+.fa-hands-helping, 
+.h3_mentions_footer, 
+.h3_footer_contact {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+ 
+.h3_footer {
+    padding-top: 1rem;
     }
 }
