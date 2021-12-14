@@ -10,8 +10,8 @@ body {
 
 .arrow_h1 {
     display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
+    justify-content: center;
+    margin: 1rem 10rem 0rem 2rem;
 }
 
 h1 {
@@ -333,7 +333,7 @@ h1 {
 .h3_desserts {
     font-family: 'Roboto', sans-serif;
     margin: 0.5rem 1.5rem 0rem 1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 0.2rem;
 }
 
@@ -382,6 +382,7 @@ h1 {
 .button_explorer {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     padding: 0.2rem 0rem 0.2rem 0rem;
