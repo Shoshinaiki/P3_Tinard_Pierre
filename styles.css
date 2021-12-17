@@ -243,6 +243,7 @@ h1 {
 
 .h3_restaurants {
     font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
     margin-top: 10px;
     margin-bottom: 0.2rem;
     padding-left: 1rem;
@@ -250,6 +251,8 @@ h1 {
 
 .p_restaurants {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
     margin-top: 2px;
     padding-left: 1rem;
     margin-bottom: 0px;
@@ -390,62 +393,54 @@ footer {
 
 .h2_footer {
     font-family: 'Shrikhand', cursive;
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     font-weight: 100;
     color: white;
-    padding: 1rem 0rem 1rem 0rem;
-    margin: 0rem 0rem 0rem 1rem;
+    margin: 0.8rem 0rem 0.5rem 2rem;
 }
 
 .h3_footer {
-    padding-bottom: 0rem;
-    margin: 0rem 0rem 0rem 1rem;
+    margin: 0.5rem 0rem 0.5rem 1rem;
+}
+
+.h3_footer, 
+.h3_mentions_footer {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .h3_mentions_footer {
-    margin-top: 0rem;
+    margin: 0.5rem 0rem 0.5rem 2rem;
 }
 
 .h3_footer_contact {
-    margin-bottom: 2rem;
-    margin: 0rem 0rem 1rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0rem 0rem 2.5rem 2rem;
 }
 
 .fa-utensils_h3_footer, 
 .fa-hands-helping_h3_footer { 
     display: flex;
     flex-direction: row;
-    padding-bottom: 1rem;
 } 
 
 .fa-utensils {
-    font-size: 0.9rem;
-    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem 0rem 0.5rem 2rem;
 }
 
 .fa-hands-helping {
-    font-size: 0.6rem;
-    margin-left: 1rem;
-    padding-top: 5px;
-}
-
-.fa-utensils, 
-.fa-hands-helping, 
-.h3_footer, 
-.h3_mentions_footer, 
-.h3_footer_contact, 
-.h3_mentions_footer {
     font-family: 'Roboto', sans-serif;
     color: white;
-}
-
-.h3_footer, 
-.h3_mentions_footer, 
-.h3_footer_contact {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 0.9rem;
-    margin-left: 1rem;
+    font-size: 0.7rem;
+    margin: 0.8rem 0rem 0.5rem 2rem;
 }
 
 a {
@@ -533,8 +528,7 @@ h1 {
 .div_a_la_francaise, 
 .div_le_delice {
     width: 80%;
-    margin: 2rem 3rem 2rem 3rem;
-}
+    margin: 2rem 3rem 2rem 3rem}
     
 .la_palette_du_gout, 
 .la_note_enchantee, 
@@ -556,16 +550,5 @@ footer {
     padding-top: 1rem;
 }
     
-.h2_footer, 
-.fa-utensils, 
-.fa-hands-helping, 
-.h3_mentions_footer, 
-.h3_footer_contact {
-    padding-left: 2rem;
-    padding-top: 1rem;
-}
  
-.h3_footer {
-    padding-top: 1rem;
-    }
 }
