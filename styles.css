@@ -144,13 +144,14 @@ h1 {
 .fonctionnement {
     display: flex;
     flex-direction: column;
+    margin-bottom: 3.5rem;
 }
 
 .h2_fonctionnement, 
 .h2_restaurants {
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    margin: 2rem 0rem 0rem 2rem;
+    font-weight: 900;
+    margin: 2rem 0rem 0rem 1.5rem;
 }
 
 .button_fonctionnement {
@@ -252,7 +253,7 @@ h1 {
 .p_restaurants {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 500;
     margin-top: 2px;
     padding-left: 1rem;
     margin-bottom: 0px;
@@ -307,7 +308,7 @@ h1 {
 
 .info {
     display: grid;
-    grid-template-columns: 90% 10%;
+    grid-template-columns: 85% 15%;
     margin-bottom: 1rem;
 }
 
